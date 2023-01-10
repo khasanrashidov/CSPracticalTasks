@@ -24,7 +24,7 @@ namespace PracticalTask
         {
             Console.WriteLine("Practical Task");
             Console.WriteLine("Enter a string: ");
-            string input = Console.ReadLine();
+            string input = Convert.ToString(Console.ReadLine());
             Console.WriteLine("The string you entered is: " + input);
 
             // Initialize variables to store the maximum number of unequal consecutive characters and the current count.

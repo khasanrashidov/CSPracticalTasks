@@ -7,8 +7,15 @@ using System;
 
 namespace PracticalTask
 {
+    /// <summary>
+    /// The PracticalTask class provides a main method that converts a number from decimal to another base number system.
+    /// </summary>
     internal class PracticalTask
     {
+        /// <summary>
+        /// The Main method takes a number in decimal and a new base number system as input and prints the original number converted to this system.
+        /// </summary>
+        /// <param name="args">The number in decimal and the new base number system.</param>
         public static void Main(string[] args)
         {
             Console.WriteLine("Practical Task");

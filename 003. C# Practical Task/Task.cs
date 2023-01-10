@@ -12,8 +12,18 @@ using System;
 
 namespace PracticalTask
 {
+    /// <summary>
+    /// Class CarPark provides a main method that manages a car park.
+    /// </summary>
+    /// <remarks>
+    /// This is a solution to the Practical Task.
+    /// </remarks>
     class CarPark
     {
+        /// <summary>
+        /// The Main method manages a car park.
+        /// </summary>
+        /// <param name="args">The string to be evaluated.</param>
         static void Main(string[] args)
         {
             // Create a new PassengerCar
@@ -120,32 +130,64 @@ namespace PracticalTask
     }
 
     // Class Engine
+    /// <summary>
+    /// Class Engine provides information about the engine
+    /// </summary>
     class Engine
     {
         // Properties
+        /// <summary>
+        /// Power of the engine
+        /// </summary>
         public int Power { get; set; }
+        /// <summary>
+        /// Volume of the engine
+        /// </summary>
         public int Volume { get; set; }
         // string? - Nullable string
         // It means that the string can be null
+        /// <summary>
+        /// Property Type of the engine
+        /// </summary>
         public string? Type { get; set; }
+        /// <summary>
+        /// Property SerialNumber of the engine
+        /// </summary>
         public string? SerialNumber { get; set; }
     }
 
+    // Class Chassis
+    /// <summary>
+    /// Class Chassis provides information about the chassis
+    /// </summary>
     class Chassis
     {
+        /// <summary>
+        /// Properties of the class Chassis: WheelsNumber, Number, PermissibleLoad
+        /// </summary>
         public int WheelsNumber { get; set; }
         public string? Number { get; set; }
         public int PermissibleLoad { get; set; }
     }
 
+    // Class Transmission
+    /// <summary>
+    /// Class Transmission provides information about the transmission
+    /// </summary>
     class Transmission
     {
+        /// <summary>
+        /// Properties of the class Transmission: Type, NumberOfGears, Manufacturer
+        /// </summary>
         public string? Type { get; set; }
         public int NumberOfGears { get; set; }
         public string? Manufacturer { get; set; }
     }
 
     // Class PassengerCar
+    /// <summary>
+    /// Class PassengerCar provides information about the passenger car
+    /// </summary>
     class PassengerCar
     {
         public string Brand;
@@ -157,6 +199,19 @@ namespace PracticalTask
         public Transmission Transmission;
 
         // Constructor with parameters
+        /// <summary>
+        /// Constructor with parameters: brand, model, color, year, engine, chassis, transmission
+        /// </summary>
+        /// <param name="brand">Brand of the car</param>
+        /// <param name="model">Model of the car</param>
+        /// <param name="color">Color of the car</param>
+        /// <param name="year">Year of the car</param>
+        /// <param name="engine">Engine of the car</param>
+        /// <param name="chassis">Chassis of the car</param>
+        /// <param name="transmission">Transmission of the car</param>
+        /// <see cref="Engine"/>
+        /// <see cref="Chassis"/>
+        /// <see cref="Transmission"/>
         public PassengerCar(string brand, string model, string color, int year, Engine engine, Chassis chassis, Transmission transmission)
         {
             Brand = brand;
@@ -170,6 +225,10 @@ namespace PracticalTask
 
     }
 
+    // Class Truck
+    /// <summary>
+    /// Class Truck provides information about the truck
+    /// </summary>
     class Truck
     {
         public string Brand;
@@ -180,6 +239,10 @@ namespace PracticalTask
         public Chassis Chassis;
         public Transmission Transmission;
 
+        // Constructor with parameters
+        /// <summary>
+        /// Constructor with parameters: brand, model, color, year, engine, chassis, transmission
+        /// </summary>
         public Truck(string brand, string model, string color, int year, Engine engine, Chassis chassis, Transmission transmission)
         {
             Brand = brand;
@@ -193,6 +256,10 @@ namespace PracticalTask
 
     }
 
+    // Class Bus
+    /// <summary>
+    /// Class Bus provides information about the bus
+    /// </summary>
     class Bus
     {
         public string Brand;
@@ -203,6 +270,10 @@ namespace PracticalTask
         public Chassis Chassis;
         public Transmission Transmission;
 
+        // Constructor with parameters
+        /// <summary>
+        /// Constructor with parameters: brand, model, color, year, engine, chassis, transmission
+        /// </summary>
         public Bus(string brand, string model, string color, int year, Engine engine, Chassis chassis, Transmission transmission)
         {
             Brand = brand;
@@ -216,6 +287,10 @@ namespace PracticalTask
 
     }
 
+    // Class Scooter
+    /// <summary>
+    /// Class Scooter provides information about the scooter
+    /// </summary>
     class Scooter
     {
         public string Brand;
@@ -226,6 +301,10 @@ namespace PracticalTask
         public Chassis Chassis;
         public Transmission Transmission;
 
+        // Constructor with parameters
+        /// <summary>
+        /// Constructor with parameters: brand, model, color, year, engine, chassis, transmission
+        /// </summary>
         public Scooter(string brand, string model, string color, int year, Engine engine, Chassis chassis, Transmission transmission)
         {
             Brand = brand;
