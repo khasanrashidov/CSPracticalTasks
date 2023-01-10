@@ -3,13 +3,24 @@
 // and prints the maximum number of unequal consecutive characters per line to the console.
 
 using System;
-using System.Runtime.InteropServices;
 
 namespace PracticalTask
 {
-    internal class PracticalTask
+    /// <summary>
+    /// The PracticalTask class provides a method to find the maximum number of unequal consecutive characters in a string.
+    /// </summary>
+    /// <remarks>
+    /// This is a solution to the Practical Task.
+    /// </remarks>
+    class PracticalTask
     {
-        public static void Main(string[] args)
+        /// <summary>
+        /// The Main method takes a string as input and prints the maximum number of unequal consecutive characters.
+        /// </summary>
+        /// <param name="args">The string to be evaluated.</param>
+        /// <seealso cref="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/"/>
+        /// <seealso cref="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions"/>
+        static void Main(string[] args)
         {
             Console.WriteLine("Practical Task");
             Console.WriteLine("Enter a string: ");
