@@ -20,7 +20,7 @@ namespace PracticalTask
         static void Main(string[] args)
         {
             Console.WriteLine("Practical Task");
-
+            Console.WriteLine("-------------------------------------------------");
             // create objects
             Bird bird = new Bird();
             Airplane airplane = new Airplane();
@@ -36,12 +36,14 @@ namespace PracticalTask
             bird.FlyTo(newPoint);
             airplane.FlyTo(newPoint);
             drone.FlyTo(newPoint);
+            Console.WriteLine("-------------------------------------------------");
 
             // Calculate fly time
             Console.WriteLine("Bird fly time: " + bird.GetFlyTime(newPoint) + " hours");
             Console.WriteLine("Airplane fly time: " + airplane.GetFlyTime(newPoint) + " hours");
             Console.WriteLine("Drone fly time: " + drone.GetFlyTime(newPoint) + " hours");
-
+            Console.WriteLine("-------------------------------------------------");
+      
             Console.ReadKey(); // Console.Readkey() is used to prevent the console from closing immediately
 
         }
@@ -63,10 +65,11 @@ namespace PracticalTask
     class Bird : IFlyable
     {
         public Coordinate CurrentPosition { get; set; }
-
         public void FlyTo(Coordinate newPoint)
         {
             CurrentPosition = newPoint;
+            Console.WriteLine("Bird is flying to new point");
+            Console.WriteLine("New point coordinates: " + newPoint.x + " " + newPoint.y + " " + newPoint.z);
         }
 
         public double GetFlyTime(Coordinate newPoint)
@@ -87,6 +90,8 @@ namespace PracticalTask
         public void FlyTo(Coordinate newPoint)
         {
             CurrentPosition = newPoint;
+            Console.WriteLine("Airplane is flying to new point");
+            Console.WriteLine("New point coordinates: " + newPoint.x + " " + newPoint.y + " " + newPoint.z);
         }
 
         public double GetFlyTime(Coordinate newPoint)
@@ -105,6 +110,8 @@ namespace PracticalTask
         public void FlyTo(Coordinate newPoint)
         {
             CurrentPosition = newPoint;
+            Console.WriteLine("Drone is flying to new point");
+            Console.WriteLine("New point coordinates: " + newPoint.x + " " + newPoint.y + " " + newPoint.z);
         }
 
         public double GetFlyTime(Coordinate newPoint)
