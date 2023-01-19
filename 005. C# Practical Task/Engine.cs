@@ -4,7 +4,7 @@ using System;
 /// <summary>
 /// Class Engine provides information about the engine
 /// </summary>
-class Engine
+public class Engine
 {
     // Properties
     /// <summary>
