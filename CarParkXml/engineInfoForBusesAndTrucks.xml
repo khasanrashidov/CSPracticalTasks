@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEngineInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EngineInfo>
+    <Model>Volvo FH</Model>
+    <Year>2018</Year>
+    <Color>White</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>0987654321</SerialNumber>
+    <Power>500</Power>
+  </EngineInfo>
+  <EngineInfo>
+    <Model>Scania R</Model>
+    <Year>2018</Year>
+    <Color>White</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>0987654321</SerialNumber>
+    <Power>500</Power>
+  </EngineInfo>
+  <EngineInfo>
+    <Model>Chevrolet Silverado</Model>
+    <Year>2018</Year>
+    <Color>White</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>0987654321</SerialNumber>
+    <Power>500</Power>
+  </EngineInfo>
+  <EngineInfo>
+    <Model>Mercedes-Benz Citaro</Model>
+    <Year>2017</Year>
+    <Color>Blue</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>1234567890</SerialNumber>
+    <Power>200</Power>
+  </EngineInfo>
+  <EngineInfo>
+    <Model>MCI D4500</Model>
+    <Year>2017</Year>
+    <Color>Blue</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>1234567890</SerialNumber>
+    <Power>200</Power>
+  </EngineInfo>
+  <EngineInfo>
+    <Model>Volvo B9TL</Model>
+    <Year>2017</Year>
+    <Color>Blue</Color>
+    <Type>Diesel</Type>
+    <SerialNumber>1234567890</SerialNumber>
+    <Power>200</Power>
+  </EngineInfo>
+</ArrayOfEngineInfo>
